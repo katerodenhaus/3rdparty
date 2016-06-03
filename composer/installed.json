@@ -43,7 +43,8 @@
             "common",
             "event",
             "exception"
-        ]
+        ],
+        "abandoned": "guzzle/guzzle"
     },
     {
         "name": "guzzle/stream",
@@ -98,7 +99,8 @@
             "Guzzle",
             "component",
             "stream"
-        ]
+        ],
+        "abandoned": "guzzle/guzzle"
     },
     {
         "name": "guzzle/parser",
@@ -144,7 +146,8 @@
             "http",
             "message",
             "url"
-        ]
+        ],
+        "abandoned": "guzzle/guzzle"
     },
     {
         "name": "guzzle/http",
@@ -203,7 +206,8 @@
             "curl",
             "http",
             "http client"
-        ]
+        ],
+        "abandoned": "guzzle/guzzle"
     },
     {
         "name": "rackspace/php-opencloud",
@@ -307,7 +311,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/natxet/CssMin/zipball/0b2170454eed9024c7e26b036fbccf2d7f6f2c53",
+            "url": "https://api.github.com/repos/natxet/CssMin/zipball/003920e783c568c2d8fdf03999eebefb8479092a",
             "reference": "003920e783c568c2d8fdf03999eebefb8479092a",
             "shasum": ""
         },
@@ -3141,6 +3145,109 @@
             "compression",
             "javascript",
             "minification"
+        ]
+    },
+    {
+        "name": "kriswallsmith/buzz",
+        "version": "v0.10",
+        "version_normalized": "0.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kriswallsmith/Buzz.git",
+            "reference": "759432d66387e3433d3b06cb6f773b97225b9b17"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/759432d66387e3433d3b06cb6f773b97225b9b17",
+            "reference": "759432d66387e3433d3b06cb6f773b97225b9b17",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "ext-curl": "*"
+        },
+        "time": "2013-05-19 03:41:15",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Buzz": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/"
+            }
+        ],
+        "description": "Lightweight HTTP client",
+        "homepage": "https://github.com/kriswallsmith/Buzz",
+        "keywords": [
+            "curl",
+            "http client"
+        ]
+    },
+    {
+        "name": "gorkalaucirica/hipchat-v2-api-client",
+        "version": "v1.5.1",
+        "version_normalized": "1.5.1.0",
+        "target-dir": "GorkaLaucirica/HipchatAPIv2Client",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gorkalaucirica/HipchatAPIv2Client.git",
+            "reference": "045521cd01aba26cdf304010bc3f66dc4f9fd37c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gorkalaucirica/HipchatAPIv2Client/zipball/045521cd01aba26cdf304010bc3f66dc4f9fd37c",
+            "reference": "045521cd01aba26cdf304010bc3f66dc4f9fd37c",
+            "shasum": ""
+        },
+        "require": {
+            "kriswallsmith/buzz": "0.10",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "henrikbjorn/phpspec-code-coverage": "1.0.*@dev",
+            "phpspec/phpspec": "2.0.*@dev"
+        },
+        "time": "2016-04-30 11:45:31",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "GorkaLaucirica\\HipchatAPIv2Client": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gorka Laucirica",
+                "email": "gorka.lauzirika@gmail.com",
+                "homepage": "http://gorkalaucirica.net/"
+            }
+        ],
+        "description": "Hipchat v2 API client",
+        "homepage": "https://github.com/gorkalaucirica/HipchatAPIv2Client",
+        "keywords": [
+            "api",
+            "client",
+            "hipchat",
+            "library",
+            "v2"
         ]
     }
 ]
